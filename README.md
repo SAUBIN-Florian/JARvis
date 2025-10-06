@@ -1,15 +1,15 @@
 # 🤖☕ JARvis
 Super simple Golang CLI tool for generating Java projects in 2 parts
 
-1️⃣ It will generate a repository anywhere you want on your computer
-2️⃣ Now you will only use pure Java with the help of Makefile commands
+1️⃣ It will generate a repository anywhere you want on your computer  
+2️⃣ Now you will only use pure Java with the help of Makefile commands  
 
 
 # Informations
-✅ Tested with go version 1.23.0
-✅ Tested on linux Debian 12
+✅ Tested with go version 1.23.0  
+✅ Tested on linux Debian 12  
 📦 Generate `.jar` files automatically  
-⚡ Fast, portable, no dependencies
+⚡ Fast, portable, no dependencies  
 
 
 This project is a non-standard super simple one, ultimately the only thing (for now) this CLI can do
@@ -24,7 +24,7 @@ It did not follow the classical Java files structure like src/com/example/too_mu
 
 ## ⚡ Quick start
 
-🤖 JARvis part:
+🤖 JARvis part:  
 ```bash
 # 1️⃣ Clone the repo and navigate to it
 $ cd JARvis/
@@ -36,7 +36,7 @@ $ go build -o JARvis main.go
 $ ./JARvis
 ```
 
-By default JARvis will create a repository named output at path ./
+By default JARvis will create a repository named output at path ./  
 
 ```bash
 # Change the name of your java project:
@@ -52,7 +52,7 @@ $ ./JARvis -name goffee -force
 $ ./JARvis -help
 ```
 
-☕ Java part:
+☕ Java part:  
 ```bash
 # go to your freshly created project
 $ cd output/
